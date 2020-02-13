@@ -1,0 +1,118 @@
+    // Fonts
+    @import url('https://fonts.googleapis.com/css?family=Nunito');
+    // Variables
+    @import 'variables';
+    // Bootstrap
+    @import '~bootstrap/scss/bootstrap';
+    html {
+        width: 100%;
+        height: 100%;
+        body {
+            width: 100%;
+            height: 100%;
+            background: #1e3c72;
+            background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);
+            background: linear-gradient(to right, #2a5298, #1e3c72);
+            position: relative;
+            .quizBox {
+                min-width: 700px;
+                height: auto;
+                width: 60%;
+                max-height: 500px;
+                min-height: 500px;
+                background: #fff;
+                margin: auto;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                overflow: hidden;
+                .slick-list {
+                    height: 100%;
+                    .slick-track {
+                        height: 100%;
+                        .slick-slide {
+                            height: 100%;
+                            div {
+                                height: 100%;
+                                .left {
+                                    width: 50%;
+                                    float: left;
+                                    .p-5 {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: space-evenly;
+                                        align-items: center;
+                                        h3 {
+                                            color: #1e3c72;
+                                            padding: 5px;
+                                            border-bottom: 1px solid #1e3c72;
+                                        }
+                                    }
+                                    .img {
+                                        width: 150px;
+                                        height: 150px;
+                                        background: #ccc;
+                                        border-radius: 50%;
+                                    }
+                                }
+                                .right {
+                                    width: 50%;
+                                    float: right;
+                                    background: #1e3c72;
+                                    color: #fff;
+                                    .p-5 {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: space-evenly;
+                                        align-items: center;
+                                    }
+                                    .row {
+                                        height: auto;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .row {
+                    height: 100%;
+                    .bg-white {
+                        .p-5 {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-evenly;
+                            align-items: center;
+                        }
+                        .img {
+                            width: 150px;
+                            height: 150px;
+                            background: #ccc;
+                            border-radius: 50%;
+                        }
+                    }
+                    .bg-indigo {
+                        height: 100% !important;
+                        background: indigo;
+                        color: #fff;
+                        .p-5 {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-evenly;
+                            align-items: center;
+                            p {
+                                font-size: 20px;
+                            }
+                        }
+                        .img {
+                            width: 150px;
+                            height: 150px;
+                            background: #ccc;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }

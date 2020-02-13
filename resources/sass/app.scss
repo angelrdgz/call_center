@@ -1,0 +1,31 @@
+            // Fonts
+            @import url('https://fonts.googleapis.com/css?family=Nunito');
+            // Variables
+            @import 'variables';
+            // Bootstrap
+            @import '~bootstrap/scss/bootstrap';
+            html {
+                width: 100%;
+                height: 100%;
+                body {
+                    width: 100%;
+                    height: 100%;
+                    @media (min-width: 768px) {
+                        .h-md-100 {
+                            height: 100vh;
+                        }
+                    }
+                    .btn-round {
+                        border-radius: 30px;
+                    }
+                    .bg-indigo {
+                        background: url('../images/call_background.jpg');
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                    }
+                    .text-cyan {
+                        color: #35bdff;
+                    }
+                }
+            }
