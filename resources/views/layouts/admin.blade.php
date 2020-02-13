@@ -37,7 +37,6 @@
         </div>-->
         <div class="sidebar-brand-text mx-3">
     <!--<img src="{{ asset('images/logo.png') }}" class="logo p-1" alt="">-->
-      <h2 class="text-center text-white">LOGO</h2>
         </div>
       </a>
 
