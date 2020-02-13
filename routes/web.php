@@ -21,6 +21,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
     Route::resource('users', "UserController");
     Route::resource('people', "PeopleController");
     Route::resource('calibration', "CalibrationController");
+    Route::resource('settings', "SettingController");
     
 });
 

@@ -65,7 +65,7 @@
         <i class="fas fa-clipboard-list"></i>
           <span>Sesión de Garantias</span></a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item {{ Request::is('admin/calibration') ? 'active':'' }}">
         <a class="nav-link" href="{{ url('admin/calibration') }}">
         <i class="fas fa-sliders-h"></i>
           <span>Calibraciones</span></a>
@@ -74,6 +74,11 @@
         <a class="nav-link" href="{{ url('admin/quiz') }}">
         <i class="fas fa-comment-dollar"></i>
           <span>Comisiones</span></a>
+      </li>
+      <li class="nav-item {{ Request::is('admin/settings') ? 'active':'' }}">
+        <a class="nav-link" href="{{ url('admin/settings') }}">
+        <i class="fas fa-cogs"></i>
+          <span>Configuraciones</span></a>
       </li>
       <li class="nav-item {{ Request::is('admin/users') ? 'active':'' }}">
         <a class="nav-link" href="{{ url('admin/users') }}">
